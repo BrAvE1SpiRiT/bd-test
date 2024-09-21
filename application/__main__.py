@@ -10,8 +10,7 @@ if __name__ == "__main__":
 
     uvicorn.run(
         "application.run:app",
-        host="0.0.0.0",
-        port=5000,
+        host="https://bd-test-sand.vercel.app",
         access_log=True,
         log_config=SETTINGS_LOGGER,
         reload=is_debug,
